@@ -48,11 +48,16 @@ duration: 15min
   
   ## *Saeed Saeedvand*, National Taiwan Normal University, Taiwan  
   
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  <carbon:arrow-right />
-</div>
-
+  <div style="
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    z-index: 1000;
+  ">
+  <a href="/export/">
+    <img src="/button-1.png" alt="Download as PDF" style="width: 250px; border: none; cursor: pointer;">
+  </a>
+  </div>
 
 <!--
 Notes
